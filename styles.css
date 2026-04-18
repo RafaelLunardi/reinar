@@ -266,42 +266,24 @@ h3 {
 
 .showcase-main {
   min-height: 460px;
-  background:
-    linear-gradient(160deg, rgba(255, 255, 255, 0.22), rgba(255, 255, 255, 0)),
-    linear-gradient(135deg, #aa907b 0%, #efd5ba 42%, #a17a4f 100%);
+  background: #8d7559;
 }
 
-.showcase-main::before,
+.showcase-main img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .showcase-main::after {
   content: "";
   position: absolute;
-  border-radius: 32px;
-  background: rgba(255, 252, 248, 0.26);
-  border: 1px solid rgba(255, 252, 248, 0.32);
-}
-
-.showcase-main::before {
-  width: 62%;
-  height: 54%;
-  right: -8%;
-  bottom: 8%;
-}
-
-.showcase-main::after {
-  width: 48%;
-  height: 38%;
-  left: 10%;
-  top: 12%;
-}
-
-.grain {
-  position: absolute;
   inset: 0;
-  background-image:
-    linear-gradient(90deg, rgba(255, 252, 248, 0.09) 1px, transparent 1px),
-    linear-gradient(rgba(124, 91, 55, 0.07) 1px, transparent 1px);
-  background-size: 22px 22px;
-  opacity: 0.55;
+  background:
+    linear-gradient(180deg, rgba(20, 16, 12, 0.04), rgba(20, 16, 12, 0.36)),
+    linear-gradient(90deg, rgba(20, 16, 12, 0.38), transparent 58%);
 }
 
 .showcase-copy {
@@ -311,6 +293,11 @@ h3 {
   bottom: 2rem;
   z-index: 1;
   max-width: 22rem;
+  color: #fffaf4;
+}
+
+.showcase-copy .label {
+  color: #efd5ba;
 }
 
 .showcase-copy strong {
