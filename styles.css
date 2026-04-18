@@ -1,8 +1,8 @@
 :root {
   --bg: #cbb9a4;
   --bg-soft: #bca88f;
-  --surface: rgba(207, 188, 162, 0.9);
-  --surface-strong: #cdb89b;
+  --surface: rgba(187, 165, 136, 0.92);
+  --surface-strong: #b79a75;
   --text: #323432;
   --muted: #6e645a;
   --line: rgba(84, 62, 38, 0.14);
@@ -163,7 +163,7 @@ a {
 
 .button-secondary,
 .button-ghost {
-  background: rgba(205, 184, 155, 0.82);
+  background: rgba(183, 154, 117, 0.9);
   border-color: var(--line);
 }
 
@@ -322,7 +322,7 @@ h3 {
 
 .showcase-note {
   padding: 1.35rem;
-  background: rgba(205, 184, 155, 0.88);
+  background: rgba(183, 154, 117, 0.9);
 }
 
 .showcase-note p {
@@ -366,7 +366,7 @@ h3 {
   padding: 1.7rem;
   border-radius: var(--radius-md);
   background:
-    linear-gradient(180deg, rgba(211, 193, 166, 0.98), rgba(196, 174, 145, 0.98));
+    linear-gradient(180deg, rgba(190, 167, 137, 0.98), rgba(174, 145, 110, 0.98));
 }
 
 .card-index {
@@ -433,7 +433,7 @@ h3 {
 
 .contact-emphasis {
   background:
-    linear-gradient(145deg, rgba(201, 174, 141, 0.96), rgba(213, 195, 169, 0.98));
+    linear-gradient(145deg, rgba(174, 145, 110, 0.98), rgba(190, 167, 137, 0.98));
 }
 
 .text-link {
@@ -523,7 +523,7 @@ button:focus-visible {
   .main-nav a {
     padding: 0.8rem 0.9rem;
     text-align: center;
-    background: rgba(205, 184, 155, 0.82);
+    background: rgba(183, 154, 117, 0.9);
     border: 1px solid rgba(84, 62, 38, 0.14);
   }
 
