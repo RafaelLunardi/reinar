@@ -389,27 +389,11 @@ h3 {
   border-radius: var(--radius-md);
 }
 
-.portfolio-art {
-  min-height: 260px;
-  background-color: #3d312a;
-}
-
-.art-one {
-  background:
-    linear-gradient(180deg, rgba(255, 241, 227, 0.08), transparent),
-    linear-gradient(135deg, #8d6b52, #332923);
-}
-
-.art-two {
-  background:
-    radial-gradient(circle at 25% 25%, rgba(255, 238, 219, 0.12), transparent 26%),
-    linear-gradient(135deg, #6c4f3d, #2f2621);
-}
-
-.art-three {
-  background:
-    linear-gradient(135deg, rgba(255, 245, 235, 0.08), rgba(255, 255, 255, 0)),
-    linear-gradient(135deg, #7c5f4a, #2c231f);
+.portfolio-card img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  display: block;
 }
 
 .portfolio-copy {
@@ -422,7 +406,7 @@ h3 {
 }
 
 .contact-grid {
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .contact-card {
