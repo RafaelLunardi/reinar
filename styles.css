@@ -249,7 +249,7 @@ h3 {
 .hero-points li {
   min-width: 180px;
   flex: 1 1 180px;
-  padding: 1.05rem 1.15rem;
+  padding: 1rem 1.15rem;
   border-radius: var(--radius-sm);
 }
 
@@ -410,11 +410,11 @@ h3 {
 }
 
 .portfolio-copy {
-  padding: 1.3rem;
+  padding: 1.05rem 1.15rem 1.15rem;
 }
 
 .portfolio-copy h3 {
-  margin: 0.35rem 0 0.5rem;
+  margin: 0.35rem 0 0;
   font-size: 1.8rem;
 }
 
@@ -425,6 +425,10 @@ h3 {
 .contact-card {
   padding: 1.6rem;
   border-radius: var(--radius-md);
+}
+
+.contact-card h3 {
+  margin-bottom: 0.7rem;
 }
 
 .contact-emphasis {
