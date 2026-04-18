@@ -1,11 +1,11 @@
 :root {
   --bg: #cbb9a4;
   --bg-soft: #bca88f;
-  --surface: rgba(232, 219, 202, 0.88);
-  --surface-strong: #e5d4bf;
+  --surface: rgba(207, 188, 162, 0.9);
+  --surface-strong: #cdb89b;
   --text: #323432;
   --muted: #6e645a;
-  --line: rgba(50, 52, 50, 0.1);
+  --line: rgba(84, 62, 38, 0.14);
   --accent: #a17a4f;
   --accent-deep: #7c5b37;
   --accent-soft: #efd5ba;
@@ -163,7 +163,7 @@ a {
 
 .button-secondary,
 .button-ghost {
-  background: rgba(229, 212, 191, 0.72);
+  background: rgba(205, 184, 155, 0.82);
   border-color: var(--line);
 }
 
@@ -242,7 +242,7 @@ h3 {
 .contact-card,
 .showcase-card {
   background: var(--surface-strong);
-  border: 1px solid rgba(80, 61, 40, 0.1);
+  border: 1px solid rgba(84, 62, 38, 0.14);
   box-shadow: var(--shadow);
 }
 
@@ -322,7 +322,7 @@ h3 {
 
 .showcase-note {
   padding: 1.35rem;
-  background: rgba(229, 212, 191, 0.86);
+  background: rgba(205, 184, 155, 0.88);
 }
 
 .showcase-note p {
@@ -366,7 +366,7 @@ h3 {
   padding: 1.7rem;
   border-radius: var(--radius-md);
   background:
-    linear-gradient(180deg, rgba(232, 219, 202, 0.96), rgba(213, 194, 169, 0.96));
+    linear-gradient(180deg, rgba(211, 193, 166, 0.98), rgba(196, 174, 145, 0.98));
 }
 
 .card-index {
@@ -433,7 +433,7 @@ h3 {
 
 .contact-emphasis {
   background:
-    linear-gradient(145deg, rgba(239, 213, 186, 0.46), rgba(229, 212, 191, 0.98));
+    linear-gradient(145deg, rgba(201, 174, 141, 0.96), rgba(213, 195, 169, 0.98));
 }
 
 .text-link {
@@ -523,8 +523,8 @@ button:focus-visible {
   .main-nav a {
     padding: 0.8rem 0.9rem;
     text-align: center;
-    background: rgba(229, 212, 191, 0.72);
-    border: 1px solid rgba(80, 61, 40, 0.1);
+    background: rgba(205, 184, 155, 0.82);
+    border: 1px solid rgba(84, 62, 38, 0.14);
   }
 
   .hero {
