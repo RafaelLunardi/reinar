@@ -87,7 +87,7 @@ a {
 .topbar {
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 0;
+  padding: 0.55rem 0;
 }
 
 .brand {
@@ -98,8 +98,8 @@ a {
 }
 
 .brand-logo {
-  width: 9rem;
-  height: 5.35rem;
+  width: 8.4rem;
+  height: 3.8rem;
   object-fit: contain;
   object-position: center;
 }
