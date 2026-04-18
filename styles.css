@@ -1,15 +1,15 @@
 :root {
   --bg: #cbb9a4;
   --bg-soft: #bca88f;
-  --surface: rgba(255, 252, 248, 0.88);
-  --surface-strong: #fffdfb;
+  --surface: rgba(232, 219, 202, 0.88);
+  --surface-strong: #e5d4bf;
   --text: #323432;
   --muted: #6e645a;
   --line: rgba(50, 52, 50, 0.1);
   --accent: #a17a4f;
   --accent-deep: #7c5b37;
   --accent-soft: #efd5ba;
-  --shadow: 0 24px 70px rgba(50, 52, 50, 0.1);
+  --shadow: 0 22px 58px rgba(74, 55, 34, 0.13);
   --radius-lg: 34px;
   --radius-md: 24px;
   --radius-sm: 18px;
@@ -68,9 +68,9 @@ a {
   position: sticky;
   top: 0;
   z-index: 40;
-  background: rgba(255, 251, 247, 0.82);
+  background: rgba(199, 181, 157, 0.78);
   backdrop-filter: blur(18px);
-  border-bottom: 1px solid rgba(50, 52, 50, 0.08);
+  border-bottom: 1px solid rgba(80, 61, 40, 0.12);
 }
 
 .topbar,
@@ -163,7 +163,7 @@ a {
 
 .button-secondary,
 .button-ghost {
-  background: rgba(255, 252, 248, 0.74);
+  background: rgba(229, 212, 191, 0.72);
   border-color: var(--line);
 }
 
@@ -242,7 +242,7 @@ h3 {
 .contact-card,
 .showcase-card {
   background: var(--surface-strong);
-  border: 1px solid rgba(50, 52, 50, 0.08);
+  border: 1px solid rgba(80, 61, 40, 0.1);
   box-shadow: var(--shadow);
 }
 
@@ -322,7 +322,7 @@ h3 {
 
 .showcase-note {
   padding: 1.35rem;
-  background: rgba(255, 251, 247, 0.86);
+  background: rgba(229, 212, 191, 0.86);
 }
 
 .showcase-note p {
@@ -366,7 +366,7 @@ h3 {
   padding: 1.7rem;
   border-radius: var(--radius-md);
   background:
-    linear-gradient(180deg, rgba(255, 252, 248, 0.96), rgba(244, 236, 226, 0.96));
+    linear-gradient(180deg, rgba(232, 219, 202, 0.96), rgba(213, 194, 169, 0.96));
 }
 
 .card-index {
@@ -433,7 +433,7 @@ h3 {
 
 .contact-emphasis {
   background:
-    linear-gradient(145deg, rgba(239, 213, 186, 0.62), rgba(255, 251, 247, 0.98));
+    linear-gradient(145deg, rgba(239, 213, 186, 0.46), rgba(229, 212, 191, 0.98));
 }
 
 .text-link {
@@ -523,8 +523,8 @@ button:focus-visible {
   .main-nav a {
     padding: 0.8rem 0.9rem;
     text-align: center;
-    background: rgba(255, 251, 247, 0.84);
-    border: 1px solid rgba(50, 52, 50, 0.08);
+    background: rgba(229, 212, 191, 0.72);
+    border: 1px solid rgba(80, 61, 40, 0.1);
   }
 
   .hero {
