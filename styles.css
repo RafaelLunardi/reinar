@@ -1,15 +1,15 @@
 :root {
-  --bg: #274047;
-  --bg-soft: #34535b;
-  --surface: rgba(246, 237, 228, 0.88);
-  --surface-strong: #efe2d5;
-  --text: #1f2c31;
-  --muted: #5a6a6f;
-  --line: rgba(52, 83, 91, 0.16);
-  --accent: #d97852;
-  --accent-deep: #b85c3a;
-  --accent-soft: #f0b86f;
-  --shadow: 0 24px 70px rgba(20, 35, 40, 0.16);
+  --bg: #082b4a;
+  --bg-soft: #0b5278;
+  --surface: rgba(243, 240, 229, 0.9);
+  --surface-strong: #ece7da;
+  --text: #08253f;
+  --muted: #43616c;
+  --line: rgba(8, 82, 120, 0.16);
+  --accent: #0f8f99;
+  --accent-deep: #0b5278;
+  --accent-soft: #f3f0e5;
+  --shadow: 0 24px 70px rgba(4, 26, 47, 0.18);
   --radius-lg: 34px;
   --radius-md: 24px;
   --radius-sm: 18px;
@@ -30,9 +30,9 @@ body {
   font-family: "Manrope", sans-serif;
   line-height: 1.6;
   background:
-    radial-gradient(circle at top left, rgba(240, 184, 111, 0.22), transparent 24%),
-    radial-gradient(circle at top right, rgba(217, 120, 82, 0.16), transparent 22%),
-    linear-gradient(180deg, #21363d 0%, var(--bg) 28%, var(--bg-soft) 100%);
+    radial-gradient(circle at top left, rgba(15, 143, 153, 0.18), transparent 24%),
+    radial-gradient(circle at top right, rgba(243, 240, 229, 0.18), transparent 22%),
+    linear-gradient(180deg, #07233b 0%, var(--bg) 34%, var(--bg-soft) 100%);
 }
 
 img {
@@ -68,9 +68,9 @@ a {
   position: sticky;
   top: 0;
   z-index: 40;
-  background: rgba(237, 225, 213, 0.78);
+  background: rgba(243, 240, 229, 0.78);
   backdrop-filter: blur(18px);
-  border-bottom: 1px solid rgba(52, 83, 91, 0.1);
+  border-bottom: 1px solid rgba(8, 82, 120, 0.1);
 }
 
 .topbar,
@@ -106,9 +106,9 @@ a {
   font-family: "Cormorant Garamond", serif;
   font-size: 1.45rem;
   font-weight: 700;
-  color: #fff8f2;
+  color: #fefcf7;
   background: linear-gradient(135deg, var(--accent), var(--accent-deep));
-  box-shadow: 0 12px 28px rgba(184, 92, 58, 0.24);
+  box-shadow: 0 12px 28px rgba(11, 82, 120, 0.24);
 }
 
 .brand-text strong,
@@ -133,7 +133,7 @@ a {
 
 .main-nav a:hover,
 .main-nav a:focus-visible {
-  background: rgba(217, 120, 82, 0.1);
+  background: rgba(15, 143, 153, 0.1);
   outline: none;
 }
 
@@ -158,12 +158,12 @@ a {
 .button-primary {
   color: #fff;
   background: linear-gradient(135deg, var(--accent), var(--accent-deep));
-  box-shadow: 0 16px 34px rgba(184, 92, 58, 0.24);
+  box-shadow: 0 16px 34px rgba(11, 82, 120, 0.24);
 }
 
 .button-secondary,
 .button-ghost {
-  background: rgba(255, 250, 245, 0.72);
+  background: rgba(243, 240, 229, 0.72);
   border-color: var(--line);
 }
 
@@ -242,7 +242,7 @@ h3 {
 .contact-card,
 .showcase-card {
   background: var(--surface-strong);
-  border: 1px solid rgba(52, 83, 91, 0.1);
+  border: 1px solid rgba(8, 82, 120, 0.1);
   box-shadow: var(--shadow);
 }
 
@@ -267,8 +267,8 @@ h3 {
 .showcase-main {
   min-height: 460px;
   background:
-    linear-gradient(160deg, rgba(255, 255, 255, 0.22), rgba(255, 255, 255, 0)),
-    linear-gradient(135deg, #3c5d64 0%, #f0b86f 44%, #d97852 100%);
+    linear-gradient(160deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0)),
+    linear-gradient(135deg, #0f8f99 0%, #0b5278 55%, #082b4a 100%);
 }
 
 .showcase-main::before,
@@ -276,8 +276,8 @@ h3 {
   content: "";
   position: absolute;
   border-radius: 32px;
-  background: rgba(255, 250, 245, 0.22);
-  border: 1px solid rgba(255, 250, 245, 0.3);
+  background: rgba(243, 240, 229, 0.22);
+  border: 1px solid rgba(243, 240, 229, 0.32);
 }
 
 .showcase-main::before {
@@ -298,8 +298,8 @@ h3 {
   position: absolute;
   inset: 0;
   background-image:
-    linear-gradient(90deg, rgba(255, 248, 240, 0.08) 1px, transparent 1px),
-    linear-gradient(rgba(38, 61, 67, 0.08) 1px, transparent 1px);
+    linear-gradient(90deg, rgba(243, 240, 229, 0.08) 1px, transparent 1px),
+    linear-gradient(rgba(8, 43, 74, 0.1) 1px, transparent 1px);
   background-size: 22px 22px;
   opacity: 0.55;
 }
@@ -322,7 +322,7 @@ h3 {
 
 .showcase-note {
   padding: 1.35rem;
-  background: rgba(248, 241, 234, 0.84);
+  background: rgba(243, 240, 229, 0.84);
 }
 
 .showcase-note p {
@@ -339,8 +339,8 @@ h3 {
   padding: 1rem 1.1rem;
   text-align: center;
   border-radius: 999px;
-  background: rgba(250, 244, 238, 0.72);
-  border: 1px solid rgba(52, 83, 91, 0.1);
+  background: rgba(243, 240, 229, 0.72);
+  border: 1px solid rgba(8, 82, 120, 0.1);
 }
 
 .section {
@@ -366,7 +366,7 @@ h3 {
   padding: 1.7rem;
   border-radius: var(--radius-md);
   background:
-    linear-gradient(180deg, rgba(250, 241, 233, 0.96), rgba(236, 224, 211, 0.96));
+    linear-gradient(180deg, rgba(243, 240, 229, 0.96), rgba(228, 234, 230, 0.96));
 }
 
 .card-index {
@@ -385,7 +385,7 @@ h3 {
 .process-card {
   padding: 1.5rem;
   border-radius: var(--radius-md);
-  background: rgba(245, 236, 227, 0.88);
+  background: rgba(239, 236, 226, 0.9);
 }
 
 .process-card strong {
@@ -429,7 +429,7 @@ h3 {
 
 .contact-emphasis {
   background:
-    linear-gradient(145deg, rgba(240, 184, 111, 0.34), rgba(248, 241, 234, 0.96));
+    linear-gradient(145deg, rgba(15, 143, 153, 0.18), rgba(243, 240, 229, 0.96));
 }
 
 .text-link {
@@ -458,7 +458,7 @@ h3 {
 
 a:focus-visible,
 button:focus-visible {
-  outline: 3px solid rgba(217, 120, 82, 0.28);
+  outline: 3px solid rgba(15, 143, 153, 0.28);
   outline-offset: 3px;
 }
 
@@ -519,8 +519,8 @@ button:focus-visible {
   .main-nav a {
     padding: 0.8rem 0.9rem;
     text-align: center;
-    background: rgba(255, 248, 242, 0.68);
-    border: 1px solid rgba(52, 83, 91, 0.1);
+    background: rgba(243, 240, 229, 0.7);
+    border: 1px solid rgba(8, 82, 120, 0.1);
   }
 
   .hero {
