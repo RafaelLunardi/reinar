@@ -213,6 +213,7 @@ h3 {
 }
 
 .hero-text,
+.service-area,
 .section-text,
 .feature-card p,
 .process-card p,
@@ -220,6 +221,12 @@ h3 {
 .contact-card p,
 .showcase-copy p {
   color: var(--muted);
+}
+
+.service-area {
+  margin: 1rem 0 0;
+  font-weight: 800;
+  color: var(--accent-deep);
 }
 
 .hero-points {
