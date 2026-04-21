@@ -422,6 +422,7 @@ h3 {
 
 .contact-card h3 {
   margin-bottom: 0.7rem;
+  overflow-wrap: anywhere;
 }
 
 .contact-emphasis {
