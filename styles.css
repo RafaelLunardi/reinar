@@ -397,8 +397,8 @@ h3 {
 
 .portfolio-card img {
   width: 100%;
-  aspect-ratio: 1 / 1;
-  object-fit: cover;
+  height: auto;
+  object-fit: contain;
   display: block;
 }
 
@@ -629,10 +629,6 @@ button:focus-visible {
 
   .portfolio-grid {
     gap: 1rem;
-  }
-
-  .portfolio-card img {
-    aspect-ratio: 1 / 1;
   }
 
   .contact-grid {
