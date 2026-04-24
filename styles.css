@@ -162,6 +162,10 @@ a {
   background: linear-gradient(135deg, var(--whatsapp), var(--whatsapp-deep));
   border-color: rgba(10, 90, 41, 0.18);
   box-shadow: 0 18px 40px rgba(18, 140, 67, 0.3);
+  min-height: 58px;
+  padding: 0.95rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 800;
 }
 
 .button-whatsapp:hover,
@@ -171,7 +175,7 @@ a {
 }
 
 .button-whatsapp-top {
-  min-width: 148px;
+  min-width: 228px;
 }
 
 .button-secondary,
@@ -477,7 +481,24 @@ h3 {
 }
 
 .mobile-whatsapp-cta {
-  display: none;
+  position: fixed;
+  right: 1.25rem;
+  bottom: 1.25rem;
+  z-index: 70;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 62px;
+  padding: 0.95rem 1.35rem;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #22b45b, #0f7b39);
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 800;
+  letter-spacing: 0.01em;
+  box-shadow: 0 18px 38px rgba(18, 140, 67, 0.38);
+  border: 1px solid rgba(10, 90, 41, 0.18);
 }
 
 .footer-row {
@@ -525,6 +546,10 @@ button:focus-visible {
 
   .showcase-main {
     min-height: 420px;
+  }
+
+  .site-footer {
+    padding-bottom: 6.8rem;
   }
 }
 
@@ -693,25 +718,12 @@ button:focus-visible {
   }
 
   .mobile-whatsapp-cta {
-    position: fixed;
     left: 0.9rem;
     right: 0.9rem;
     bottom: 0.9rem;
-    z-index: 70;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     min-height: 64px;
     padding: 0.95rem 1.2rem;
-    border-radius: 999px;
-    background: linear-gradient(135deg, #22b45b, #0f7b39);
-    color: #fff;
-    text-decoration: none;
     font-size: 1.05rem;
-    font-weight: 800;
-    letter-spacing: 0.01em;
-    box-shadow: 0 18px 38px rgba(18, 140, 67, 0.38);
-    border: 1px solid rgba(10, 90, 41, 0.18);
   }
 }
 
