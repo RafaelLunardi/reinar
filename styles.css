@@ -488,17 +488,20 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 62px;
-  padding: 0.95rem 1.35rem;
-  border-radius: 999px;
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
   background: linear-gradient(135deg, #22b45b, #0f7b39);
   color: #fff;
   text-decoration: none;
-  font-size: 1rem;
-  font-weight: 800;
-  letter-spacing: 0.01em;
   box-shadow: 0 18px 38px rgba(18, 140, 67, 0.38);
   border: 1px solid rgba(10, 90, 41, 0.18);
+}
+
+.mobile-whatsapp-cta svg {
+  width: 34px;
+  height: 34px;
+  display: block;
 }
 
 .footer-row {
@@ -718,12 +721,11 @@ button:focus-visible {
   }
 
   .mobile-whatsapp-cta {
-    left: 0.9rem;
+    left: auto;
     right: 0.9rem;
     bottom: 0.9rem;
-    min-height: 64px;
-    padding: 0.95rem 1.2rem;
-    font-size: 1.05rem;
+    width: 64px;
+    height: 64px;
   }
 }
 
