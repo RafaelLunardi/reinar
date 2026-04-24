@@ -454,22 +454,6 @@ h3 {
     linear-gradient(145deg, rgba(174, 145, 110, 0.98), rgba(190, 167, 137, 0.98));
 }
 
-.contact-card-whatsapp {
-  background:
-    linear-gradient(145deg, rgba(223, 245, 230, 0.95), rgba(132, 211, 164, 0.92));
-  border-color: rgba(18, 140, 67, 0.2);
-  box-shadow: 0 22px 48px rgba(18, 140, 67, 0.16);
-}
-
-.contact-card-whatsapp .label,
-.text-link-whatsapp {
-  color: var(--whatsapp-deep);
-}
-
-.contact-card-whatsapp h3 {
-  color: #1f3a28;
-}
-
 .text-link {
   font-weight: 800;
   color: var(--accent-deep);
